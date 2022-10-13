@@ -2,6 +2,26 @@
     "section1": {
         "files": [
             {
+                "url": "assets/images/card/card-01.png",
+                "type": "image",
+                "key": "card-01"
+            },
+            {
+                "url": "assets/images/card/card-02.png",
+                "type": "image",
+                "key": "card-02"
+            },
+            {
+                "url": "assets/images/card/card-03.png",
+                "type": "image",
+                "key": "card-03"
+            },
+            {
+                "url": "assets/images/card/card-04.png",
+                "type": "image",
+                "key": "card-04"
+            },
+            {
                 "url": "assets/images/game-bg.png",
                 "type": "image",
                 "key": "game-bg"
