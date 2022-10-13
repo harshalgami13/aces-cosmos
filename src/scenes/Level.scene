@@ -1,0 +1,707 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 1920,
+        "borderHeight": 1080
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "58b769d2-9b29-404f-b8e9-15c6cacbb03c",
+            "label": "game_bg",
+            "components": [],
+            "texture": {
+                "key": "game-bg"
+            },
+            "x": 960,
+            "y": 540,
+            "scaleX": 1.8,
+            "scaleY": 1.8
+        },
+        {
+            "type": "Container",
+            "id": "57084ea4-1016-4586-ab62-a3b00fc4b6c8",
+            "label": "CardDashboardGroup",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "d6d64a3f-6000-48d4-b50e-4bffddc2ef53",
+                    "label": "main_panel",
+                    "components": [],
+                    "texture": {
+                        "key": "main-panel"
+                    },
+                    "x": 768,
+                    "y": 416,
+                    "scaleX": 0.8,
+                    "scaleY": 0.8
+                },
+                {
+                    "type": "Image",
+                    "id": "ae0896a6-d577-4c42-9f5c-d0f618aec0b9",
+                    "label": "logo",
+                    "components": [],
+                    "texture": {
+                        "key": "logo"
+                    },
+                    "x": 769,
+                    "y": 123,
+                    "scaleX": 0.9,
+                    "scaleY": 0.9
+                },
+                {
+                    "type": "Container",
+                    "id": "ee27b396-e2d4-48c0-b5fd-96217e6c0046",
+                    "label": "CardGroup",
+                    "components": [],
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "f1653abe-1691-4e0d-9805-127a980a2c1a",
+                            "label": "glow_card_0",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "glow-card"
+                            },
+                            "x": 401,
+                            "y": 447,
+                            "scaleX": 0.83,
+                            "scaleY": 0.83,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b531def6-c630-42d0-9cf7-dd001257ed0a",
+                            "label": "glow_card_1",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "glow-card"
+                            },
+                            "x": 644,
+                            "y": 447,
+                            "scaleX": 0.83,
+                            "scaleY": 0.83,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4b938a7a-e4c8-4ecc-8121-ab8889949a2a",
+                            "label": "glow_card_2",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "glow-card"
+                            },
+                            "x": 887,
+                            "y": 447,
+                            "scaleX": 0.83,
+                            "scaleY": 0.83,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ddc32a69-fc31-44c6-8907-a76f4f9102b2",
+                            "label": "glow_card_3",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "glow-card"
+                            },
+                            "x": 1130,
+                            "y": 447,
+                            "scaleX": 0.83,
+                            "scaleY": 0.83,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "355b1f0e-795f-4945-ad03-ad59f82ce929",
+                            "label": "card_0",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "card"
+                            },
+                            "x": 401,
+                            "y": 447,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        },
+                        {
+                            "type": "Image",
+                            "id": "fc5c10a7-3a38-4477-9d5a-2b5f2c3dd40f",
+                            "label": "card_1",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "card"
+                            },
+                            "x": 644,
+                            "y": 447,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d6dbea76-bb63-421e-bb5a-57dd9ccd60db",
+                            "label": "card_2",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "card"
+                            },
+                            "x": 887,
+                            "y": 447,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        },
+                        {
+                            "type": "Image",
+                            "id": "66d8a5ae-3972-47be-b7e5-a4057d73f3f0",
+                            "label": "card_3",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "card"
+                            },
+                            "x": 1130,
+                            "y": 447,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "19514540-7477-48a7-92bf-339adbc9feef",
+            "label": "HistoryDashboardGroup",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "54d7c102-8cd8-48cc-87c0-ea62e9843b44",
+                    "label": "history_bet_box",
+                    "components": [],
+                    "texture": {
+                        "key": "history-bet-box"
+                    },
+                    "x": 1628,
+                    "y": 565
+                },
+                {
+                    "type": "Text",
+                    "id": "4fa6cff6-cb01-4f51-9009-b28f05bfeeaa",
+                    "label": "GameName",
+                    "components": [],
+                    "x": 1516,
+                    "y": 290,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "GAME",
+                    "fontFamily": "Sans-serif",
+                    "fontSize": "21px",
+                    "fontStyle": "bold",
+                    "color": "#6e1f03",
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "dd6cffdc-7ddd-4bbf-94c4-38b46319192f",
+                    "label": "Bet",
+                    "components": [],
+                    "x": 1608.5,
+                    "y": 290,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "BET",
+                    "fontFamily": "Sans-serif",
+                    "fontSize": "21px",
+                    "fontStyle": "bold",
+                    "color": "#6e1f03",
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "7f97a341-5a62-4a11-903f-a3a6483024ef",
+                    "label": "Profit",
+                    "components": [],
+                    "x": 1708,
+                    "y": 290,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "PROFIT",
+                    "fontFamily": "Sans-serif",
+                    "fontSize": "21px",
+                    "fontStyle": "bold",
+                    "color": "#6e1f03",
+                    "backgroundColor": ""
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "ad49f820-b4a7-4a71-9aca-d16e65cd01dc",
+            "label": "ControllerDashboardGroup",
+            "components": [],
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "6c51562c-ad72-4654-b819-96b54a72631b",
+                    "label": "General",
+                    "components": [],
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "23eb22c8-fc06-4b70-b03b-58715478e1ca",
+                            "label": "total_bet_box",
+                            "components": [],
+                            "texture": {
+                                "key": "total-bet-box"
+                            },
+                            "x": 777,
+                            "y": 870.5,
+                            "scaleX": 0.78
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3ed943de-04b7-4df8-9034-91af4e486d05",
+                            "label": "bet_value_bg",
+                            "components": [],
+                            "texture": {
+                                "key": "bet-value-bg"
+                            },
+                            "x": 753,
+                            "y": 869,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        },
+                        {
+                            "type": "Image",
+                            "id": "fb33ce49-9091-4374-90cc-90dd00e14e9e",
+                            "label": "TotalBetText",
+                            "components": [],
+                            "texture": {
+                                "key": "total-bet-text"
+                            },
+                            "x": 777,
+                            "y": 782
+                        },
+                        {
+                            "type": "Text",
+                            "id": "a44d9e4e-6618-475b-9581-526e10c5a259",
+                            "label": "MinMaxAmount",
+                            "components": [],
+                            "x": 768,
+                            "y": 958,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Min 0.01 - Max 1000",
+                            "fontFamily": "Sans-serif",
+                            "fontSize": "25px",
+                            "fontStyle": "bold",
+                            "color": "#6e1f03"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "cc9bb10a-7a46-47c4-bc69-d1a98da0cf41",
+                    "label": "Buttons",
+                    "components": [],
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "12a93761-f6fb-4eb4-84c7-08ed5d03c3cf",
+                            "label": "min_max_box_1",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "min-max-box"
+                            },
+                            "x": 470,
+                            "y": 869,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7
+                        },
+                        {
+                            "type": "Image",
+                            "id": "73f1559a-0c18-4366-a4c6-0adca8394bbf",
+                            "label": "min_max_box_2",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "min-max-box"
+                            },
+                            "x": 1036,
+                            "y": 869,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7304fe23-9260-4b10-9e57-73ce01684ffb",
+                            "label": "half_double_bet_2",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "half-double-bet"
+                            },
+                            "x": 936,
+                            "y": 869,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7
+                        },
+                        {
+                            "type": "Image",
+                            "id": "43874194-2ef4-459f-b5cb-46e3ac47228f",
+                            "label": "half_double_bet_1",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "half-double-bet"
+                            },
+                            "x": 571,
+                            "y": 869,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f9ea352b-b629-4301-8ea7-14e91b2ca269",
+                            "label": "sound_off",
+                            "components": [],
+                            "texture": {
+                                "key": "sound-off"
+                            },
+                            "x": 361,
+                            "y": 867
+                        },
+                        {
+                            "type": "Image",
+                            "id": "8f8266b2-a329-43ab-b1d9-2198c24976e0",
+                            "label": "sound_on",
+                            "components": [],
+                            "texture": {
+                                "key": "sound-on"
+                            },
+                            "x": 361,
+                            "y": 869
+                        },
+                        {
+                            "type": "Ellipse",
+                            "id": "e35f8091-efd4-4495-a440-43bc5b95e28e",
+                            "label": "ellipse_1",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 571,
+                            "y": 870,
+                            "scaleX": 0.48,
+                            "scaleY": 0.48,
+                            "isFilled": true,
+                            "fillColor": "#b03d12",
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Ellipse",
+                            "id": "f6d55471-096c-44b5-9ae7-668c0b15c76e",
+                            "label": "ellipse_2",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 936,
+                            "y": 870,
+                            "scaleX": 0.48,
+                            "scaleY": 0.48,
+                            "isFilled": true,
+                            "fillColor": "#b03d12",
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "8843c5f3-7311-4439-bcac-1d962279b793",
+                            "label": "rectangle_1",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 471,
+                            "y": 869,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5,
+                            "isFilled": true,
+                            "fillColor": "#b03d12",
+                            "width": 128,
+                            "height": 128
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "c59d450b-af27-48d7-8b88-4b64d7bb526a",
+                            "label": "rectangle_2",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 1037,
+                            "y": 869,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5,
+                            "isFilled": true,
+                            "fillColor": "#b03d12",
+                            "width": 128,
+                            "height": 128
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "d52abf48-c964-4cf0-b0ad-71e9811369cc",
+                    "label": "Texts",
+                    "components": [],
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "63dffc0b-cbb7-4a4d-913a-836604e8315c",
+                            "label": "min",
+                            "components": [],
+                            "x": 470,
+                            "y": 869,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "MIN",
+                            "fontFamily": "Sans-serif",
+                            "fontSize": "25px",
+                            "fontStyle": "bold",
+                            "color": "#6e1f03"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "96110639-3759-4b7b-bcc7-4e3ad14ca722",
+                            "label": "score",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 753,
+                            "y": 869,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "0.02",
+                            "fontFamily": "Sans-serif",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "color": "#6e1f03",
+                            "backgroundColor": ""
+                        },
+                        {
+                            "type": "Text",
+                            "id": "c47d2400-92b5-48fe-9ff0-84902ec8450a",
+                            "label": "max",
+                            "components": [],
+                            "x": 1038,
+                            "y": 869,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "MAX",
+                            "fontFamily": "Sans-serif",
+                            "fontSize": "25px",
+                            "fontStyle": "bold",
+                            "color": "#6e1f03"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "9d47650c-e475-4887-9c59-d55415b171ad",
+                            "label": "x2",
+                            "components": [],
+                            "x": 936.5,
+                            "y": 869,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "X2",
+                            "fontFamily": "Sans-serif",
+                            "fontSize": "35px",
+                            "fontStyle": "bold",
+                            "color": "#6e1f03"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "fcbf807b-5ce3-4df1-af81-8a53d100f8fa",
+                            "label": "/2",
+                            "components": [],
+                            "x": 571,
+                            "y": 869,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "/2",
+                            "fontFamily": "Sans-serif",
+                            "fontSize": "35px",
+                            "fontStyle": "bold",
+                            "color": "#6e1f03"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "23473de2-c6fe-4883-8e11-552d17f259df",
+                            "label": "TotalCash",
+                            "components": [],
+                            "x": 437,
+                            "y": 729,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Total Cash : 1,000,000",
+                            "fontFamily": "Sans-serif",
+                            "fontSize": "26px",
+                            "fontStyle": "bold"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "53c74ad3-584f-4101-aa71-d14b74bb6562",
+                    "label": "CardSelect",
+                    "components": [],
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "1bdf3830-e7aa-4d7b-a043-c63393b7c4a2",
+                            "label": "card_icon_box",
+                            "components": [],
+                            "texture": {
+                                "key": "card-icon-box"
+                            },
+                            "x": 1216,
+                            "y": 871,
+                            "scaleX": 0.9,
+                            "scaleY": 0.9
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a3ec31fd-fd00-4519-ae9d-1cd27d8fc2b3",
+                            "label": "left_t",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "left-t"
+                            },
+                            "x": 1178,
+                            "y": 835,
+                            "scaleX": 0.9,
+                            "scaleY": 0.9,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b348ba25-a9bd-44c3-a65c-60b52ff3c3b0",
+                            "label": "right_t",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "right-t"
+                            },
+                            "x": 1254,
+                            "y": 835,
+                            "scaleX": 0.9,
+                            "scaleY": 0.9,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "fb15d750-2c31-4093-8d76-dbd4489da132",
+                            "label": "left_b",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "left-b"
+                            },
+                            "x": 1178,
+                            "y": 907,
+                            "scaleX": 0.9,
+                            "scaleY": 0.9,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "fc2b4c1b-c8df-4612-8ef7-39622889ccd9",
+                            "label": "right_b",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "right-b"
+                            },
+                            "x": 1254,
+                            "y": 907,
+                            "scaleX": 0.9,
+                            "scaleY": 0.9,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "20bb3dd6-9d2c-4b2e-a1fc-1125718ad9f3",
+                            "label": "clubs",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "clubs"
+                            },
+                            "x": 1185,
+                            "y": 842,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2b8146ce-ad55-4364-8d75-3864fc233dfe",
+                            "label": "diamond",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "diamond"
+                            },
+                            "x": 1245,
+                            "y": 843,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        },
+                        {
+                            "type": "Image",
+                            "id": "1c10439a-02d6-4046-83ae-06e2d55d0f10",
+                            "label": "heart",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "heart"
+                            },
+                            "x": 1185,
+                            "y": 899,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7a514765-4403-4511-851e-c0a5535ef73e",
+                            "label": "spades",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "spades"
+                            },
+                            "x": 1245,
+                            "y": 899,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

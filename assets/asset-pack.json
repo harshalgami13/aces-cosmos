@@ -1,0 +1,133 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/bet-value-bg.png",
+                "type": "image",
+                "key": "bet-value-bg"
+            },
+            {
+                "url": "assets/images/card.png",
+                "type": "image",
+                "key": "card"
+            },
+            {
+                "url": "assets/images/card-icon-box.png",
+                "type": "image",
+                "key": "card-icon-box"
+            },
+            {
+                "url": "assets/images/clubs.png",
+                "type": "image",
+                "key": "clubs"
+            },
+            {
+                "url": "assets/images/copy-code.png",
+                "type": "image",
+                "key": "copy-code"
+            },
+            {
+                "url": "assets/images/diamond.png",
+                "type": "image",
+                "key": "diamond"
+            },
+            {
+                "url": "assets/images/glow-card.png",
+                "type": "image",
+                "key": "glow-card"
+            },
+            {
+                "url": "assets/images/half-double-bet.png",
+                "type": "image",
+                "key": "half-double-bet"
+            },
+            {
+                "url": "assets/images/heart.png",
+                "type": "image",
+                "key": "heart"
+            },
+            {
+                "url": "assets/images/help.png",
+                "type": "image",
+                "key": "help"
+            },
+            {
+                "url": "assets/images/history-bet-box.png",
+                "type": "image",
+                "key": "history-bet-box"
+            },
+            {
+                "url": "assets/images/left-b.png",
+                "type": "image",
+                "key": "left-b"
+            },
+            {
+                "url": "assets/images/left-t.png",
+                "type": "image",
+                "key": "left-t"
+            },
+            {
+                "url": "assets/images/logo.png",
+                "type": "image",
+                "key": "logo"
+            },
+            {
+                "url": "assets/images/main-panel.png",
+                "type": "image",
+                "key": "main-panel"
+            },
+            {
+                "url": "assets/images/min-max-box.png",
+                "type": "image",
+                "key": "min-max-box"
+            },
+            {
+                "url": "assets/images/provably-fair.png",
+                "type": "image",
+                "key": "provably-fair"
+            },
+            {
+                "url": "assets/images/right-b.png",
+                "type": "image",
+                "key": "right-b"
+            },
+            {
+                "url": "assets/images/right-t.png",
+                "type": "image",
+                "key": "right-t"
+            },
+            {
+                "url": "assets/images/sound-off.png",
+                "type": "image",
+                "key": "sound-off"
+            },
+            {
+                "url": "assets/images/sound-on.png",
+                "type": "image",
+                "key": "sound-on"
+            },
+            {
+                "url": "assets/images/spades.png",
+                "type": "image",
+                "key": "spades"
+            },
+            {
+                "url": "assets/images/total-bet-box.png",
+                "type": "image",
+                "key": "total-bet-box"
+            },
+            {
+                "url": "assets/images/total-bet-text.png",
+                "type": "image",
+                "key": "total-bet-text"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}
